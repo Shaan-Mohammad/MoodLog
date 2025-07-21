@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Notebook cover -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M4,2h12c1.1,0 2,0.9 2,2v16c0,1.1 -0.9,2 -2,2H4c-1.1,0 -2,-0.9 -2,-2V4c0,-1.1 0.9,-2 2,-2z"/>
+    <!-- Binding lines -->
+    <path
+        android:fillColor="@android:color/white"
+        android:strokeWidth="1"
+        android:strokeColor="@android:color/white"
+        android:pathData="M6,4h8M6,8h8M6,12h8M6,16h8"/>
+    <!-- Right margin edge -->
+    <path
+        android:fillColor="@color/secondary"
+        android:pathData="M16,2v20"/>
+</vector>

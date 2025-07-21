@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/promptText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What are you grateful for today?"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/journalStreakText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🖋️ Journal Streak: 0 days"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:paddingBottom="8dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/notesEditText"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="Write your thoughts here..."
+            android:background="@drawable/edittext_bg"
+            android:padding="12dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/wordCountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 words"
+            android:textSize="12sp"
+            android:textColor="@color/secondary_text"
+            android:paddingBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/btnSaveJournal"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="Save Journal"
+                android:background="@drawable/button_bg"
+                android:textColor="@color/on_primary"/>
+
+            <Button
+                android:id="@+id/btnExportJournal"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="Export PDF"
+                android:background="@drawable/button_outline_bg"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvResourcesLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🛈 Self-care Resources"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingTop="24dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_marginTop="24dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="24dp">
+
+    <EditText
+        android:id="@+id/etMoodLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mood label (e.g. Happy)"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/etMoodEmoji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Emoji (e.g. 😊)"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick a color:"
+        android:textSize="14sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp"/>
+
+    <LinearLayout
+        android:id="@+id/colorPalette"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>
