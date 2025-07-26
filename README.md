@@ -26,7 +26,12 @@ A comprehensive Android application for mood tracking and mental wellness, built
 - Secure user authentication
 
 ## Screenshots
-[Add screenshots of your app here]
+![WhatsApp Image 2025-07-26 at 19 39 09](https://github.com/user-attachments/assets/0d748e63-67a4-4a67-83f3-6246dc887e2f)
+![WhatsApp Image 2025-07-26 at 19 39 08 (1)](https://github.com/user-attachments/assets/7b0c1969-85d6-4bc8-9fc8-9c10437c5d52)
+![WhatsApp Image 2025-07-26 at 19 39 08](https://github.com/user-attachments/assets/dcfc7c6d-5f9d-40e8-b46a-2479ff478528)
+![WhatsApp Image 2025-07-26 at 19 39 07 (2)](https://github.com/user-attachments/assets/dd43e324-7c24-4d03-90ff-ea2bc386d03b)
+
+
 
 ## Contact
 Connect with me on LinkedIn: [Your LinkedIn Profile]
