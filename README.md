@@ -38,4 +38,4 @@ A comprehensive Android application for mood tracking and mental wellness, built
 
 
 ## Contact
-Connect with me on LinkedIn: [Your LinkedIn Profile]
+Connect with me on LinkedIn: https://www.linkedin.com/in/shaan-mohd/
